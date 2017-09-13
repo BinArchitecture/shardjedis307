@@ -1,0 +1,7 @@
+!!redis.clients.zkprocess.entity.LpJedisClusterYamlBean
+jedisClusterPool: {blockWhenExhausted: false, maxIdle: '5000', maxTotal: '50000',
+  maxWaitMillis: '10000', numTestsPerEvictionRun: '100', testOnBorrow: false, testOnReturn: false}
+redisNodePrefix: node
+sharding: 'fuck'
+timeout: 5000
+zkNodes: 192.168.37.246:2181
